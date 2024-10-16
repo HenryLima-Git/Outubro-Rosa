@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 18vh;
+  background-color: #FF69B4;
+  font-size: 25px;
+  color: #E4EEF1;
+}
+
+section {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 40%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul a {
+  color: #E4EEF1;
+}
+
+.containerUm {
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFD9EC;
+}
+.containerUm p {
+  width: 60%;
+  font-size: 25px;
+}
+
+.containerDois {
+  height: 32vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FF69B4;
+}
+.containerDois p {
+  width: 60%;
+  font-size: 25px;
+  color: #E4EEF1;
+}
+
+.containerTres {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 42vh;
+  background-color: #FFD9EC;
+}
+.containerTres img {
+  width: 28vh;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 18vh;
+  background-color: #FF69B4;
+}
+
+.redesSociais {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.textoFim {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  height: 18vh;
+  width: 38%;
+  color: #E4EEF1;
+}/*# sourceMappingURL=style.css.map */
